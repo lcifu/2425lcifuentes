@@ -1,0 +1,194 @@
+/* ---- Estilos generales para todas las páginas ---- */
+
+/* Barra del menú */
+header {
+    background-color: #333; 
+    padding: 10px 0; 
+    position: fixed; /* Fijo en la parte superior */
+    width: 100%; 
+    top: 0;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f0f0f0; 
+    color: #333; 
+    padding: 20px;
+}
+
+/* Estilo de la lista de navegación */
+nav ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Fondo al pasar el ratón */
+}
+
+/* Centrar la imagen de portada */
+.portada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Centrar verticalmente */
+}
+
+.portada img {
+    max-width: 50%; /* Ancho máximo */
+    height: auto; /* Mantener proporciones */
+}
+
+
+/* Encabezados */
+h1, h2, h3 {
+    color: #444; 
+}
+
+/* Párrafos */
+p {
+    margin-bottom: 20px; 
+}
+
+/* Ajustar el contenido por debajo del menú */
+section {
+    padding-top: 80px; /* Espacio debajo del menú */
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #444; 
+    color: white;
+    text-align: center; /* Centrar texto */
+    padding: 10px; 
+}
+
+/* Estilos para enlaces del pie de página */
+footer a {
+    color: #f0f0f0; 
+    text-decoration: underline; /* Subrayado */
+}
+
+footer a:hover {
+    color: #ccc; /* Color al pasar el ratón */
+}
+
+
+/* ---- Estilos para la página de la galería ---- */
+
+/* Centrar el título de la galería */
+section h1 {
+    text-align: center; /* Centrar el título */
+    margin-bottom: 30px; /* Espacio debajo del título */
+}
+
+/* Centrar la tabla de imágenes */
+table {
+    margin: 0 auto; /* Centrar la tabla */
+}
+
+/* Ajustar el tamaño de las imágenes en la tabla */
+table img {
+    width: 300px; /* Aumentar el tamaño de las imágenes */
+    height: 200px; /* Aumentar el tamaño */
+}
+
+/* Celdas centradas */
+table td {
+    text-align: center;
+    padding: 15px; /* Añadir espacio entre las imágenes */
+}
+
+
+/* ---- Estilos para la página de eventos ---- */
+
+/* Centrar el título de la sección de eventos */
+section h1 {
+    text-align: center; /* Centrar el título */
+    margin-bottom: 30px; /* Espacio debajo del título */
+}
+
+/* Estilo de los artículos de los eventos */
+article {
+    margin-bottom: 40px; /* Espacio entre los eventos */
+    text-align: center;  /* Centrar el contenido de cada evento */
+}
+
+/* Imágenes dentro de los artículos */
+article img {
+    display: block;
+    margin: 0 auto 15px auto; /* Centrar imagen y añadir espacio inferior */
+    width: 300px; /* Ajustar tamaño de las imágenes */
+    height: auto; /* Mantener proporciones */
+}
+
+/* Estilo de los títulos de los eventos */
+article h2 {
+    color: #444; 
+    margin-bottom: 10px; /* Espacio debajo del título del evento */
+}
+
+/* Estilo del texto descriptivo de los eventos */
+article p {
+    font-size: 1.1em; /* Tamaño de texto ligeramente mayor */
+    color: #555; /* Color para el texto del evento */
+    margin-bottom: 20px; /* Espacio debajo del texto del evento */
+}
+
+/* Texto centrado al final de la sección de eventos */
+section p {
+    text-align: center; 
+    font-size: 1.2em; /* Tamaño del texto de contacto */
+}
+
+
+/* ---- Estilos para la página de contacto ---- */
+
+/* Estilos para el formulario de contacto */
+form {
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilos para las etiquetas del formulario */
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
