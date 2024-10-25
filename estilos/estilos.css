@@ -1,15 +1,15 @@
-/* ---- Estilos generales para todas las páginas ---- */
+/* ---- Estilos para todas las páginas ---- */
 
-/* Barra del menú */
+/* Barra del menú con acceso a las diferentes páginas */
 header {
     background-color: #333; 
     padding: 10px 0; 
-    position: fixed; /* Fijo en la parte superior */
+    position: fixed; /* Dejarlo fijo en la parte superior */
     width: 100%; 
     top: 0;
 }
 
-/* Estilo general del cuerpo */
+/* Estilo del cuerpo de las webs */
 body {
     font-family: Arial, sans-serif; 
     background-color: #f0f0f0; 
@@ -17,7 +17,7 @@ body {
     padding: 20px;
 }
 
-/* Estilo de la lista de navegación */
+/* Estilo del menú de navegación */
 nav ul {
     list-style: none; 
     display: flex; 
@@ -33,10 +33,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #555; /* Fondo al pasar el ratón */
+    background-color: #555; /* Color del fondo al pasar el ratón */
 }
 
-/* Centrar la imagen de portada */
+/* Centrar la imagen de portada y generamos una clase que se llama portada*/
 .portada {
     display: flex;
     align-items: center;
@@ -50,7 +50,7 @@ nav ul li a:hover {
 }
 
 
-/* Encabezados */
+/* Color de los encabezados */
 h1, h2, h3 {
     color: #444; 
 }
@@ -73,7 +73,7 @@ footer {
     padding: 10px; 
 }
 
-/* Estilos para enlaces del pie de página */
+/* Estilos para los enlaces del pie delas páginas */
 footer a {
     color: #f0f0f0; 
     text-decoration: underline; /* Subrayado */
@@ -88,22 +88,22 @@ footer a:hover {
 
 /* Centrar el título de la galería */
 section h1 {
-    text-align: center; /* Centrar el título */
+    text-align: center; 
     margin-bottom: 30px; /* Espacio debajo del título */
 }
 
 /* Centrar la tabla de imágenes */
 table {
-    margin: 0 auto; /* Centrar la tabla */
+    margin: 0 auto;
 }
 
 /* Ajustar el tamaño de las imágenes en la tabla */
 table img {
-    width: 300px; /* Aumentar el tamaño de las imágenes */
-    height: 200px; /* Aumentar el tamaño */
+    width: 300px; 
+    height: 200px; 
 }
 
-/* Celdas centradas */
+/* Poner las celdas centradas */
 table td {
     text-align: center;
     padding: 15px; /* Añadir espacio entre las imágenes */
@@ -114,8 +114,8 @@ table td {
 
 /* Centrar el título de la sección de eventos */
 section h1 {
-    text-align: center; /* Centrar el título */
-    margin-bottom: 30px; /* Espacio debajo del título */
+    text-align: center; 
+    margin-bottom: 30px; 
 }
 
 /* Estilo de los artículos de los eventos */
@@ -128,8 +128,8 @@ article {
 article img {
     display: block;
     margin: 0 auto 15px auto; /* Centrar imagen y añadir espacio inferior */
-    width: 300px; /* Ajustar tamaño de las imágenes */
-    height: auto; /* Mantener proporciones */
+    width: 300px; 
+    height: auto; 
 }
 
 /* Estilo de los títulos de los eventos */
@@ -140,15 +140,15 @@ article h2 {
 
 /* Estilo del texto descriptivo de los eventos */
 article p {
-    font-size: 1.1em; /* Tamaño de texto ligeramente mayor */
-    color: #555; /* Color para el texto del evento */
-    margin-bottom: 20px; /* Espacio debajo del texto del evento */
+    font-size: 17px; /* Tamaño de texto ligeramente mayor */
+    color: #555;
+    margin-bottom: 20px; 
 }
 
 /* Texto centrado al final de la sección de eventos */
 section p {
     text-align: center; 
-    font-size: 1.2em; /* Tamaño del texto de contacto */
+    font-size: 20px; /* Tamaño del texto de contacto */
 }
 
 
@@ -156,7 +156,7 @@ section p {
 
 /* Estilos para el formulario de contacto */
 form {
-    max-width: 600px; /* Ancho máximo del formulario */
+    max-width: 600px; /* Este es el ancho máximo del formulario */
     margin: 0 auto; /* Centrar el formulario */
     padding: 20px;
     background-color: #fff;
@@ -170,7 +170,7 @@ form input, form textarea {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 1em;
+    font-size: 16px;
 }
 
 form input[type="submit"] {
