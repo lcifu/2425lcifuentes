@@ -45,10 +45,9 @@ nav ul li a:hover {
 }
 
 .portada img {
-    max-width: 50%; /* Ancho máximo */
+    width: 100%; /* Ancho máximo */
     height: auto; /* Mantener proporciones */
 }
-
 
 /* Color de los encabezados */
 h1, h2, h3 {
