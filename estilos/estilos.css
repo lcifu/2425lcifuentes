@@ -45,7 +45,7 @@ nav ul li a:hover {
 }
 
 .portada img {
-    width: 100%; /* Ancho máximo */
+    width: 100% 100%; /* Ancho máximo */
     height: auto; /* Mantener proporciones */
 }
 
