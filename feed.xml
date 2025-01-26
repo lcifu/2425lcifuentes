@@ -4,15 +4,17 @@
     <title>La Soci - Novedades</title>
     <link>https://lcifu.github.io/2425lcifuentes/</link>
     <description>Últimas actualizaciones de La Soci</description>
-    <language>es</language>	
+    <language>es</language>
     <managingEditor>lcifuentes@birt.eus (Laura Cifuentes)</managingEditor>
+    <link rel="self" href="https://lcifu.github.io/2425lcifuentes/feed.xml" />
 
     <item>
       <title>Nuevas fotos en la galería</title>
       <link>https://lcifu.github.io/2425lcifuentes/galeria.html</link>
       <description>Nuevas fotos del último evento de La Soci</description>
       <author>lcifuentes@birt.eus</author>
-      <pubDate>Sat, 26 Jan 2025 15:00:00 EST</pubDate>
+      <pubDate>Sun, 26 Jan 2025 15:00:00 GMT</pubDate>
+      <guid>https://lcifu.github.io/2425lcifuentes/galeria.html</guid>
     </item>
 
     <item>
@@ -20,7 +22,8 @@
       <link>https://lcifu.github.io/2425lcifuentes/eventos.html</link>
       <description>Publicación de futuros eventos de La Soci</description>
       <author>lcifuentes@birt.eus</author>
-      <pubDate>Mon, 27 Jan 2025 10:00:00 EST</pubDate>
+      <pubDate>Mon, 27 Jan 2025 10:00:00 GMT</pubDate>
+      <guid>https://lcifu.github.io/2425lcifuentes/eventos.html</guid>
     </item>
   </channel>
 </rss>
